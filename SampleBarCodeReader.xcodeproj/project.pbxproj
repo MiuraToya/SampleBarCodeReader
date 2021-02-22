@@ -15,6 +15,7 @@
 		B26492AF25E3B659005D38FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26492AD25E3B659005D38FF /* LaunchScreen.storyboard */; };
 		B26492BA25E3B659005D38FF /* SampleBarCodeReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26492B925E3B659005D38FF /* SampleBarCodeReaderTests.swift */; };
 		B26492C525E3B659005D38FF /* SampleBarCodeReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26492C425E3B659005D38FF /* SampleBarCodeReaderUITests.swift */; };
+		B26492D625E3B8EF005D38FF /* BarCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26492D525E3B8EF005D38FF /* BarCodeReaderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B26492C025E3B659005D38FF /* SampleBarCodeReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleBarCodeReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26492C425E3B659005D38FF /* SampleBarCodeReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBarCodeReaderUITests.swift; sourceTree = "<group>"; };
 		B26492C625E3B659005D38FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26492D525E3B8EF005D38FF /* BarCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeReaderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B26492A225E3B657005D38FF /* AppDelegate.swift */,
 				B26492A425E3B657005D38FF /* SceneDelegate.swift */,
 				B26492A625E3B657005D38FF /* ViewController.swift */,
+				B26492D525E3B8EF005D38FF /* BarCodeReaderViewController.swift */,
 				B26492A825E3B657005D38FF /* Main.storyboard */,
 				B26492AB25E3B659005D38FF /* Assets.xcassets */,
 				B26492AD25E3B659005D38FF /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				B26492A725E3B657005D38FF /* ViewController.swift in Sources */,
 				B26492A325E3B657005D38FF /* AppDelegate.swift in Sources */,
+				B26492D625E3B8EF005D38FF /* BarCodeReaderViewController.swift in Sources */,
 				B26492A525E3B657005D38FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
